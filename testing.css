@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ecdfdf;
+}
+
+#line-across {
+    position: absolute;
+    top: 2cm;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linedown {
+    position: absolute;
+    top: 0;
+    left: 5cm;
+    width: 2px;
+    height: 100%;
+    background-color: #fafafa;
+}
+
+#plane-icon {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    left: 1.1cm;
+    top: 0.1cm;
+}
+
+#flightmap-heading {
+    position: absolute;
+    top: 0.4cm;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-family: Consolas, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+
+h3 {
+    font-family: Consolas, sans-serif;
+    position: absolute;
+    top: 2cm;
+    left: 1.4cm;
+}
+
+#search {
+    position: absolute;
+    width: 140px;
+    height: 20px;
+    left: 0.6cm;
+    top: 3.1cm;
+    background-color: #fafafa;
+    font-family: Consolas, sans-serif;
+    border: 1px solid black;
+}
+
+#search-btn {
+    position: absolute;
+    top: 3.72cm;
+    left: 1.6cm;
+    background-color: #fafafa;
+    font-family: Consolas, sans-serif;
+}
+
+#radio-btn {
+    position: absolute;
+    top: 5cm;
+    /* Adjust this value to position the radio buttons below the search button */
+    left: 0.6cm;
+    /* Adjust this value to align with the search input */
+}
+
+.radio {
+    margin-top: 10px;
+}
+
+.radio label {
+    font-family: Consolas, sans-serif;
+    margin-right: 10px;
+}
+
+.radio input {
+    margin-right: 5px;
+}
+
+.highlight {
+    color:red;
+    font-weight: bold;
+}
